@@ -2,13 +2,13 @@
 <html lang="en-CA" class="no-js">
 <head>
 	<meta charset="utf-8">
-	<title>nwayo 3.4.2 - Documentation</title>
+	<title>Requirements - nwayo</title>
 
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta http-equiv="cleartype" content="on">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="canonical" href="https://absolunet.github.io/nwayo" />
+	<link rel="canonical" href="https://absolunet.github.io/nwayo/requirements" />
 
 	<link rel="shortcut icon"    href="/nwayo/static/icons/favicon.ico">
 	<link rel="apple-touch-icon" href="/nwayo/static/icons/touch-57.png">
@@ -75,7 +75,7 @@
 	
 		<li>
 			
-				<a href="/nwayo/requirements" >Requirements</a>
+				<span>Requirements</span>
 			
 
 			
@@ -144,76 +144,19 @@
 		</nav>
 
 		<main>
-			<p align="center">
-	<img src="/nwayo/static/images/nwayo.svg" width="250" height="250" alt="nwayo">
-</p>
-<h1 align="center"><strong>nwayo</strong></h1>
-<p align="center">/nwajo/ (haitian creole) The tough central part of various fruits, containing the seeds.</p>
-<p><a href="https://www.npmjs.com/package/@absolunet/nwayo-workflow"><img src="https://img.shields.io/npm/v/@absolunet/nwayo-workflow.svg" alt="NPM version"></a>
-<a href="https://travis-ci.org/absolunet/nwayo/builds"><img src="https://api.travis-ci.org/absolunet/nwayo.svg?branch=master" alt="Travis build"></a>
-<a href="https://david-dm.org/absolunet/nwayo"><img src="https://david-dm.org/absolunet/nwayo/status.svg" alt="Dependencies"></a>
-<a href="https://david-dm.org/absolunet/nwayo?type=dev"><img src="https://david-dm.org/absolunet/nwayo/dev-status.svg" alt="Dev dependencies"></a>
-<br></p>
-<h2>What is nwayo ?</h2>
+			<h1>Requirements</h1>
 <ul>
-<li>A completely hackable front end boilerplate</li>
-<li>A multi-theme, multi-site, multi-cms front end framework</li>
-<li>A back-end agnostic environment</li>
-</ul>
-<h2>Requirements (All latest) - <a href="/nwayo/requirements">Installation guide</a></h2>
-<ul>
-<li><a href="https://nodejs.org">Node.js</a> (<a href="https://bower.io">Bower</a>, <a href="https://www.npmjs.com/package/@absolunet/nwayo-cli">nwayo</a>)</li>
+<li><a href="https://nodejs.org">Node.js</a> (<a href="https://bower.io">Bower</a>, <a href="https://www.npmjs.com/package/@absolunet/nwayo-cli">nwayo CLI</a>)</li>
 <li><a href="https://www.ruby-lang.org">Ruby</a> (<a href="http://sass-lang.com">Sass</a>)</li>
 <li><a href="http://www.graphicsmagick.org">GraphicsMagick</a> / <a href="https://www.imagemagick.org">ImageMagick</a></li>
 </ul>
-<h2>Get started</h2>
+<h2>Installation guides</h2>
 <ul>
-<li>Get the files under <a href="https://github.com/absolunet/nwayo/tree/master/boilerplate">boilerplate</a></li>
-<li>Replace <code>PROJECT_NAME</code> in <code>bower.json</code> and <code>package.json</code> with your project's name</li>
-<li>Rename <code>PROJECT_NAME.sublime-project</code> with your project's name</li>
+<li><a href="macos">macOS</a></li>
+<li><a href="windows">Windows</a></li>
 </ul>
-<p>Run in nwayo root folder</p>
-<pre><code class="language-shell">npm install
-bower install
-nwayo rebuild
-</code></pre>
-<h2>Tools   <img src="/nwayo/static/images/vendors.png" width="600" height="30" alt="nwayo vendors"></h2>
-<p><code>nwayo</code> is HTML5-ready and uses <a href="http://gulpjs.com">gulp</a> as a build system</p>
-<ul>
-<li>Based (but not mandatory) on <a href="https://foundation.zurb.com">Zurb Foundation</a></li>
-<li>Uses <a href="https://bower.io">Bower</a> as dependencies manager and <a href="http://editorconfig.org">EditorConfig</a> for consistency</li>
-</ul>
-<h4>Styling</h4>
-<ul>
-<li>CSS3-ready via <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a> and linted via <a href="https://stylelint.io/">stylelint</a></li>
-<li>Comes with <a href="http://sass-lang.com">Sass</a></li>
-<li>Minifies with <a href="http://cssnano.co">cssnano</a></li>
-</ul>
-<h4>Scripting</h4>
-<ul>
-<li>ES2018-ready via <a href="https://babeljs.io">Babel</a> and linted via <a href="http://eslint.org">ESLint</a></li>
-<li>Comes with <a href="https://jquery.com">jQuery</a>, <a href="https://modernizr.com">Modernizr</a>, <a href="https://lodash.com">lodash</a>, <a href="https://github.com/mroderick/PubSubJS">PubSubJs</a>, <a href="https://www.jsviews.com">JsRender</a>, <a href="http://absolunet.github.io/kafe">kafe</a></li>
-<li>Builds with <a href="https://www.npmjs.com/package/@absolunet/gulp-include">gulp-include</a> and is minified with <a href="http://lisperator.net/uglifyjs">UglifyJS</a></li>
-</ul>
-<h4>Other</h4>
-<ul>
-<li>Optimizes images via <a href="https://www.lcdf.org/gifsicle">gifsicle</a>, <a href="http://libjpeg-turbo.virtualgl.org">jpegtran</a>, <a href="http://optipng.sourceforge.net">optipng</a>, <a href="https://github.com/svg/svgo">svgo</a></li>
-<li>Generates iconography via <a href="http://www.graphicsmagick.org">GraphicsMagick</a>, <a href="https://www.imagemagick.org">ImageMagick</a></li>
-<li>Optimized for <a href="https://www.sublimetext.com">Sublime Text 3</a> with <a href="http://www.sublimelinter.com">SublimeLinter 3</a></li>
-</ul>
-<h2>Tried and tested</h2>
-<ul>
-<li>Currently deployed on 200+ sites</li>
-<li>Front end to <a href="https://www.drupal.org">Drupal</a>, <a href="https://wordpress.org">Wordpress</a>, <a href="https://symfony.com">Symfony</a>, <a href="https://magento.com">Magento 1 &amp; 2</a>, <a href="https://www.sitecore.net">Sitecore</a>, <a href="http://www.insitesoft.com">Insite</a> environments</li>
-</ul>
-<h2>Components</h2>
-<p>Multiple component boilerplates <a href="https://github.com/absolunet/nwayo-components">available</a></p>
-<h2>Release history</h2>
-<p>See the <a href="https://github.com/absolunet/nwayo/releases">releases</a>.</p>
-<h2>Contributing</h2>
-<p><a href="https://github.com/absolunet/nwayo/issues">Issues</a> | <a href="https://github.com/absolunet/nwayo/pulls">Pull requests</a></p>
 
-			<p class="edit-page"><a href="https://github.com/absolunet/nwayo/blob/master/docs/readme.md">Edit this page</a></p>
+			<p class="edit-page"><a href="https://github.com/absolunet/nwayo/blob/master/docs/requirements/readme.md">Edit this page</a></p>
 		</main>
 	</div>
 
