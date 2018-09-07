@@ -41,7 +41,7 @@ module.exports =
 					context.pkg = require "#{context.cwd}/package"
 
 					# check for asked version vs installed version
-					requiredVersion  = context.pkg.dependencies['@rbrlortie/nwayo-workflow']
+					requiredVersion  = context.pkg.dependencies['@rbrlortie/nwayo-workflow-fork']
 					installedVersion = helper.pkg.version
 
 					if semver.gt requiredVersion, installedVersion

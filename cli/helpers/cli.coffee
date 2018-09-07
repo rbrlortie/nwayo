@@ -65,7 +65,7 @@ module.exports =
 
 		arg = [task]
 		arg.push '--cwd', context.cwd
-		arg.push '--gulpfile', "#{context.cwd}/node_modules/@rbrlortie/nwayo-workflow/workflow/gulpfile.js"
+		arg.push '--gulpfile', "#{context.cwd}/node_modules/@rbrlortie/nwayo-workflow-fork/workflow/gulpfile.js"
 
 		spawn = require('win-spawn')
 		cmd = spawn "#{bin}", arg, { env:process.env, stdio:'inherit' }
