@@ -1,19 +1,16 @@
 {
-  "name": "@absolunet/nwayo-workflow",
-  "version": "3.3.5",
-  "description": "Workflow for nwayo",
-  "definition": "/nwajo/ (haitian creole) The tough central part of various fruits, containing the seeds.",
+  "name": "@rbrlortie/nwayo-workflow",
+  "version": "3.3.6",
+  "description": "FORK of Workflow for nwayo",
+  "definition": "FORM  /nwajo/ (haitian creole) The tough central part of various fruits, containing the seeds.",
   "homepage": "http://absolunet.github.io/nwayo",
-  "author": {
-    "name": "Absolunet",
-    "url": "http://absolunet.com/"
-  },
+  "author": "Absolunet (http://absolunet.com/)",
   "keywords": [
     "nwayo"
   ],
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/absolunet/nwayo.git",
+    "url": "git://github.com/rbrlortie/nwayo.git",
     "type": "git"
   },
   "bugs": {
@@ -73,5 +70,10 @@
     "david": "11.0.0",
     "semver": "5.4.1",
     "win-spawn": "2.0.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   }
 }
