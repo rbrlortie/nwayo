@@ -3,6 +3,6 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@rbrlortie/nwayo-workflow-forked": "3.3.5"
+    "@rbrlortie/nwayo-workflow": "3.3.5"
   }
 }

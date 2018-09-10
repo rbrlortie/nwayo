@@ -4,7 +4,7 @@
 <h1 align="center"><strong>nwayo</strong></h1>
 <p align="center">/nwajo/ (haitian creole) The tough central part of various fruits, containing the seeds.</p>
 
-[![NPM version](https://img.shields.io/npm/v/@rbrlortie/nwayo-workflow-forked.svg)](https://www.npmjs.com/package/@rbrlortie/nwayo-workflow-forked)
+[![NPM version](https://img.shields.io/npm/v/@rbrlortie/nwayo-workflow.svg)](https://www.npmjs.com/package/@rbrlortie/nwayo-workflow)
 [![Travis build](https://api.travis-ci.org/absolunet/nwayo-workflow.svg?branch=master)](https://travis-ci.org/absolunet/nwayo-workflow/builds)
 [![Dependencies](https://david-dm.org/absolunet/nwayo-workflow/status.svg)](https://david-dm.org/absolunet/nwayo-workflow)
 [![Dev dependencies](https://david-dm.org/absolunet/nwayo-workflow/dev-status.svg)](https://david-dm.org/absolunet/nwayo-workflow?type=dev)
